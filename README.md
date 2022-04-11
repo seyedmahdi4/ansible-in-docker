@@ -13,10 +13,13 @@ use with mount volume:(for example all hosts.ini and config and play book in cur
 docker run -it --rm -v `pwd`:/work ansible-in-docker
 ```
 
-todo:
+in this container exist ssh , tmux , nano 
+
+you can change or add to it in dockerfile for example change nano to vim :)
+
+###### todo:
 
 write script for use it easy for example:
 ```ansible-run foo.yaml```
 
-in this container exist ssh , tmux , nano 
-you can change or add to it in dockerfile for example change nano to vim :)
+
